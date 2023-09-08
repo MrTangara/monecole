@@ -61,7 +61,7 @@ app = dash.Dash(
         {"name": "viewport", "content": "width=device-width, initial-scale=1"}
     ],
 )
-server = app.server
+application = app.server
 
 card_color = 'red'
 marge = '15px'
